@@ -1,6 +1,7 @@
-- buat folder layout di folder views -> buat file navbar.php & template.php di dalam folder layout
-- edit controller home method index
-- edit welcome_message.php
+- edit routes.php bagian home -> tambahkan route ke pasien, dokter, resep
+- edit navbar bagian route -> hapus link logout
+- buat controller pasien
+- buat folder pasien di dalam folder views -> buat index.php di dalam folder pasien
 
 
 

@@ -1,0 +1,30 @@
+<?= $this->extend('/layout/template'); ?>
+<?= $this->section('content'); ?>
+    <div class="card border-primary">
+        <div class="card-header text-primary-emphasis">
+            <h4>Daftar Pasien</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Nama</th>
+                            <th scope="col">Jenis Kelamin</th>
+                            <th scope="col">Alamat</th>
+                            <th scope="col">Telepon</th>
+                            <th scope="col">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td></td>     
+                        </tr>
+                    </tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+<?= $this->endsection(); ?>
