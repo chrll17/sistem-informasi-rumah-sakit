@@ -1,6 +1,6 @@
-#
-- copas file env -> rename menjadi .env -> edit .env bagian 'CI_ENVIRONMENT = development' -> edit .env bagian 'app.baseURL = http://localhost:8080'
-- buat folder css di dalam folder public -> buat folder assets di dalam folder css -> download bootswatch 5 lalu ekstrak file nya letakkan di dalam folder assets 
+- buat folder layout di folder views -> buat file navbar.php & template.php di dalam folder layout
+- edit controller home method index
+- edit welcome_message.php
 
 
 
