@@ -1,7 +1,4 @@
-- edit routes.php bagian home -> tambahkan route ke pasien, dokter, resep
-- edit navbar bagian route -> hapus link logout
-- buat controller pasien
-- buat folder pasien di dalam folder views -> buat index.php di dalam folder pasien
+- php spark make:migration tbl_pasien
 
 
 
