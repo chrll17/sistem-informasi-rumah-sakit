@@ -18,9 +18,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                        <td></td>     
-                        </tr>
+                        <?php $a = 1 ?>
+                        <?php foreach ($pasien as $p) : ?>
+                            <tr>
+                                <th scope="row"><?= $a++; ?></th>
+                                <td><?= $p['nama']; ?></td>
+                                <td><?= $p['jenkel']; ?></td>
+                                <td><?= $p['alamat']; ?></td>
+                                <td><?= $p['telepon']; ?></td>
+                            </tr>
+                        <?php endforeach; ?>
                     </tbody>
                     </tbody>
                 </table>

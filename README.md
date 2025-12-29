@@ -1,4 +1,6 @@
-- php spark make:migration tbl_pasien
+- php spark make:model PasienModel
+- edit controller pasien agar mengambil data dari PasienModel
+- edit view pasien agar menampilkan data
 
 
 
