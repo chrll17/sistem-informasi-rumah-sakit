@@ -5,6 +5,9 @@
             <h4>Daftar Pasien</h4>
         </div>
         <div class="card-body">
+            <div class="button-container">
+                <a href="<?= route_to('pasien.create') ?>" class="btn btn-outline-primary">Tambah Data Pasien</a>
+            </div>
             <div class="table-responsive">
                 <table class="table table-hover">
                     <thead>

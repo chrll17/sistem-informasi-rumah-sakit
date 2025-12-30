@@ -1,6 +1,5 @@
-- php spark make:model PasienModel
-- edit controller pasien agar mengambil data dari PasienModel
-- edit view pasien agar menampilkan data
+- edit view pasien bagian link ke tambah pasien -> edit routes.php tambahkan route tambah pasien -> edit controller pasien tambahkan method create
+- buat file tambah pasien -> edit routes.php tambahkan route save pasien -> edit controller pasien tambahkan method save
 
 
 

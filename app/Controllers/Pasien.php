@@ -19,4 +19,22 @@ class Pasien extends BaseController
         ];
         return view('/pasien/index', $data); //mengarahkan ke folder pasien file index
     }
+    public function create(): string
+    {
+        $data = [
+            'tittle' => 'Tambah Data Pasien'
+        ];
+        return view('/pasien/create', $data); //mengarahkan ke folder pasien file create
+    }
+    public function save()
+    {
+        $this->vpasienmodel->save([
+            'nama' => $this->request->getVar('nama'),
+            'jenkel' => $this->request->getVar('jenkel'),
+            'alamat' => $this->request->getVar('alamat'),
+            'telepon' => $this->request->getVar('telepon')
+        ]);
+
+        return redirect()->to(route_to('pasien'));
+    }
 }
